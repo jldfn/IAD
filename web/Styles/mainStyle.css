@@ -1,0 +1,112 @@
+    body{
+        margin: 0;
+        background: #4B95B5;
+        font-family: cursive, serif, sans-serif,Times New Roman, Fantasy;
+    }
+
+    .container{
+        border-radius: 10px;
+        font-family: cursive, Times New Roman;
+        line-height: 20px;
+        font-size: 16px;
+        border: 1px solid black;
+        background: #226785;
+        width: 1288px;
+        height:755px;
+        margin: 10px auto;
+
+    }
+
+    .header {
+        background: #226785;
+        font-family: Fantasy;
+        line-height: 38px;
+        font-size: 32px;
+        color: #FFFFFF;
+        width: 960px;
+        height: 90px;
+        padding: 10px;
+        margin:0 10px 0 10px;
+
+    }
+
+    .form{
+        border-radius: 10px;
+        padding: 10px;
+        padding-left: 20px;
+        border: 2px solid black;
+        float: left;
+        background: #88C7E3;
+        height: 600px;
+        width: 600px;
+        margin-top: 10px;
+        margin-left: 10px;
+
+    }
+    .picture{
+        border-radius: 10px;
+        padding: 10px;
+        border: 2px solid black;
+        float: left;
+        background: #88C7E3;
+        height: 600px;
+        width: 600px;
+        margin: 10px 0 0 10px;
+
+    }
+
+    .clear {
+        clear: left;
+    }
+
+    INPUT{
+        color:black;
+        background: #EAEAEA;
+    }
+    INPUT:hover {
+        color:black;
+        background: white;
+    }
+
+    input[type="text"]{
+        background: #D0D0D0;
+        color:black;
+    } 
+
+    .podval{
+        border-radius: 10px;
+        border: 1px solid black;
+        background: #88C7E3;
+        width: 998px;
+        height: 640px;
+        margin: 5098px auto 0 auto;
+        padding: 10px;
+    }
+
+    .gif1{
+        float: left;
+    }
+
+    .button{
+        float: left;
+        margin: 150px auto 0 auto;
+    }
+
+    .gif2{
+        float: left;
+    }
+
+    button.new {
+        background: -moz-linear-gradient(#00BBD6, #EBFFFF);
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+        padding: 3px 7px;
+        color: #333;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        font-size: 30px;
+        border: 1px solid #666;
+        height: 100px;
+        width: 250px;
+    }

@@ -8,14 +8,15 @@
     var Width=600;
     var oldR=2.0;
     var rScale=50;
-    function Rchange(){
-        var newR=parseFloat(document.getElementById("varR").value);
-        var newScale=parseInt(document.getElementById("rScale").value);
-        if(oldR!=newR||rScale!=newScale){
-            oldR=newR;
-            rScale=newScale;
+    function Rchange() {
+        var newR = parseFloat(document.getElementById("varR").value);
+        var newScale = parseInt(document.getElementById("rScale").value);
+        if ((oldR !== newR || rScale !== newScale) && newR >= 0 && rScale >= 25) {
+            oldR = newR;
+            rScale = newScale;
             redraw(newR);
         }
+
     }
 
     function redraw(r){
